@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id = "studyTest01" class="com.study.test.StudyTest01">
+        <property name="userId" value="1001"/>
+        <property name="userName" value="测试" />
+        <property name="createTime" value="2019-01-01 12:12:34"/>
+    </bean>
+</beans>
